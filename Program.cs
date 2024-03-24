@@ -14,7 +14,7 @@ namespace eth_wwallet
         {
 
             string currentDirectory = Environment.CurrentDirectory;
-            string projectRootDirectory1 = Directory.GetParent(Directory.GetParent(Directory.GetParent(currentDirectory).FullName).FullName).FullName;
+            //  string projectRootDirectory1 = Directory.GetParent(Directory.GetParent(Directory.GetParent(currentDirectory).FullName).FullName).FullName;
             string filePath1 = Path.Combine(currentDirectory, "words_alpha.txt");
             // string filePath1 = Path.Combine(projectRootDirectory1, "words_alpha.txt");
             // string filePath2 = Path.Combine(projectRootDirectory1, "eth-list-address.txt");
